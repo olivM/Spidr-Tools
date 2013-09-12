@@ -5,6 +5,7 @@ require 'redis'
 require 'awesome_print'
 
 class MySpidr < Thor
+
 	desc "Spiding the web", "Spiding the web"
 
 	def smartTagLookup(host)
@@ -52,6 +53,7 @@ class MySpidr < Thor
 
 	end
 end
+
 class MyAnemone < Thor
 	desc "Spiding the web", "Spiding the web"
 
